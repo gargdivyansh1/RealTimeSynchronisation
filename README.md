@@ -1,6 +1,6 @@
 # Notion-Todoist Synchronization Tool
 
-This script provides a two-way synchronization mechanism between **Notion** and **Todoist**, ensuring that tasks stay updated across both platforms. By automating the task synchronization process, this tool is ideal for users managing projects in both environments, reducing manual effort and preventing task discrepancies. This can be particularly valuable for professionals juggling complex workflows, students managing academic and personal tasks, or teams collaborating on shared objectives. The primary purpose of this tool is to ensure tasks are kept up-to-date across both platforms, enabling seamless task management.
+This script provides a **two-way synchronization** mechanism between **Notion** and **Todoist**, ensuring that tasks stay updated across both platforms in **real-time**. By automating the task synchronization process, this tool is ideal for users managing projects in both environments, reducing manual effort and preventing task discrepancies. This can be particularly valuable for professionals juggling complex workflows, students managing academic and personal tasks, or teams collaborating on shared objectives. The primary purpose of this tool is to ensure tasks are kept up-to-date across both platforms, enabling seamless task management.
 
 ## Features
 
@@ -9,6 +9,10 @@ This script provides a two-way synchronization mechanism between **Notion** and 
 - New tasks created in Notion are pushed to Todoist.
 - New tasks created in Todoist are pushed to Notion.
 - Updates in either platform are reflected in the other.
+
+### Real-Time Data Transfer:
+- **Real-Time Synchronization:** The tool continuously monitors both platforms for changes and updates tasks as soon as modifications are made. This ensures that your task management remains accurate and up-to-date without manual intervention. 
+- **Webhooks for Immediate Updates:** The synchronization leverages webhooks where supported to instantly reflect task creation, updates, or deletions between Notion and Todoist.
 
 ### Task Deletion Management:
 - Deletes tasks in Todoist if marked with a specific label (e.g., "Sync") and not present in Notion.
@@ -136,4 +140,4 @@ The Todoist API is a robust tool for managing tasks programmatically.
 
 ---
 
-This synchronization tool bridges the gap between **Notion** and **Todoist**, enhancing productivity and ensuring your tasks are always in sync.
+This synchronization tool bridges the gap between **Notion** and **Todoist**, enhancing productivity and ensuring your tasks are always in sync. The **real-time data transfer** ensures you stay up-to-date with task changes instantly across both platforms.
