@@ -18,4 +18,5 @@ This tool synchronizes tasks between Notion and Todoist, ensuring consistency an
 ---
 
 ## Folder Structure
+notion-todoist-sync/ ├── src/ │ ├── notion.js # Handles Notion API interactions │ ├── todoist.js # Handles Todoist API interactions │ ├── sync.js # Core synchronization logic │ ├── helpers.js # Utility functions for data handling ├── config/ │ └── credentials.js # Stores API tokens and configurations ├── logs/ │ └── sync.log # Logs synchronization activities and errors ├── .env # Environment variables for API keys ├── README.md # Project documentation ├── package.json # Node.js dependencies └── .gitignore # Ignored files and folders
 
