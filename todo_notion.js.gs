@@ -1,10 +1,10 @@
-const Todoist_Token = '66ac17f871e01c54b951d09a3408d6182558a158'
-const Notion_Token = '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'
-const Database_ID = '180397872e1080e8ab8be45de92c3b8a'
+const Todoist_Token = <Add_Your_todoist_token>
+const Notion_Token = <Add_your_notion_token>
+const Database_ID = <Add_notion_database_id>
 
 // api
-const Todoist_API = 'https://api.todoist.com/rest/v2/tasks'
-const Notion_API = 'https://api.notion.com/v1'
+const Todoist_API = <Add_todoist_api_id>
+const Notion_API = <Add_notion_api_id>
 
 function Todoist_And_Notin_Talk() {
 
